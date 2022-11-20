@@ -38,6 +38,7 @@ int main()
 // we used brute force approach i.e we implemented what the question asked for directly
 // we took an array and checked if that current location is negative and also that position is not greater than n
 // we give abstract value to that element using abs()
+
 // and give the index of that element to new array or vector
 // also check if next element is also negative then we do not need to push it in vector instead we give it the abs() value
 // if next element is positive then we make it negative
