@@ -31,4 +31,5 @@ int main()
 // if so then i took the max of existing day's taste and the new input taste
 // the above case was if the days were same
 // if the days are not same them also the above condition works perfectly as i have initalized the arrray with 0
+
 // therefore we will get only the new taste of that day
