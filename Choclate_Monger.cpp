@@ -42,6 +42,7 @@ int main()
 // we first sorted the array as the given candies sequence might not be arranged lexicographically
 // sorting makes easier to keep count of unique flavour of toffee that sabrina can attain
 // we first allot all the unique toffee to sabrina
+
 // then we check if the difference between max candies and sabrina's candies is less than x the we can say that
 // her brother didn't got his share's choclate so we will add choclates from sabrina's unique choclates and then
 // print the remaining choclates of sabrina
