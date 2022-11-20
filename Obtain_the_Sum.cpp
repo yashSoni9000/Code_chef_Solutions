@@ -27,4 +27,5 @@ int main()
 
 // 1) sum of all the elements from 1 to n should be greater than given s
 // 2) difference of sum of number and s should give us position
+
 // 2) if position is out of scope of n then print -1
