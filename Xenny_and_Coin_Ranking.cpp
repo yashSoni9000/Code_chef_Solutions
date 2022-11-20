@@ -21,4 +21,5 @@ int main()
     return 0;
 }
 
-// here this problem was related to ad-hoc type(even non programmner can get the logic)
+// here this problem was related to ad-hoc type
+//
