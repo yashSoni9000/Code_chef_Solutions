@@ -41,6 +41,7 @@ int main()
 
 // we need to find that the alphabet is present in a multiple of 2
 // as the words will be divided among 2 people
+
 // also if the length of string is an odd number there is no way
 // the end strings can be equal so then we check for the even
 // number of strings and do the above process
