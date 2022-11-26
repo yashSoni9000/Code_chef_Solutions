@@ -31,6 +31,10 @@ int main()
     return 0;
 }
 
+// I have added an alternate solution to this code after the
+// explanation of above code which I liked somewhere and did it
+// on my own then
+
 // we need to check if the number of problem
 // if the given score is less than 10 then we can
 // safely print the score as no of problems
@@ -38,3 +42,22 @@ int main()
 // take consider that if score is 100 then one problem
 // is done and rest only 9 , 1 point problem can be done now
 // so we have to act accordingly
+
+// #define ll long long
+// #define f(end) for(register int i=0,d;i<end;i++)
+// #define e '\n'
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main() {
+// 	ios_base::sync_with_stdio(false);
+// 	cin.tie(NULL);
+// 	int t,p;
+// 	cin>>t;
+// 	while(t--)
+// 	{
+//         cin>>p;
+//         cout<<(p/100+p%100 >10 ? -1:p/100+p%100 )<<e;
+// 	}
+// 	return 0;
+// }
