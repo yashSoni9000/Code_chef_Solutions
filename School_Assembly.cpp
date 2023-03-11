@@ -45,3 +45,35 @@ int main()
 // again 3 is less than 5 so i++
 // now we reached last element which is int maximum so conditions are rejected and we
 // exit the loop and print count
+
+//////////////////////////////////
+// More optimised approach
+
+/*
+#define ll long long
+#define f(end) for(int i=0;i<end;i++)
+#define e '\n'
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t=1,n;
+// 	cin>>t;
+    while(t--)
+    {
+        cin>>n;
+        int arr[n],count=0,temp,max=0;
+        f(n){
+            cin>>temp;
+            if(temp>max){
+                count++;
+                max=temp;
+            }
+        }
+        cout<<count<<e;
+    }
+    return 0;
+}
+*/
