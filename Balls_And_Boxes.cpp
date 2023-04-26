@@ -19,6 +19,7 @@ int main() {
 	return 0;
 }
 
+
 // lets suppose that we have 3 boxes and 5 balls so according to questions we need different balls in each box so 
 // we can take 1,2,3 balls in 3 boxes respectively so we need at least a total of 6 balls more than that is fine but we 
 // aleast need to have that much balls present so we can check the pattern that we need balls that is equal to sum of given boxes
