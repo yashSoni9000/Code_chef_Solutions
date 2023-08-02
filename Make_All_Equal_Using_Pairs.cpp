@@ -15,7 +15,7 @@ int main() {
 	    int arr[1010]={0},num,ans=0,max=0,index=0,a[n];
 	    f(n) cin>>a[i];
 	    f(n) arr[a[i]]++;
-	    f(1000){
+	    f(1010){
 	            if(arr[i]>max){
 	            max=arr[i];
 	            index=i;
