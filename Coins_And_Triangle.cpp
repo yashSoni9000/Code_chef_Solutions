@@ -21,3 +21,6 @@ int main() {
 	}
 	return 0;
 }
+
+// we simply need to loop until the sum of numbers are less than n and every time next natural number is added 
+// we increment the count of level and print the count -1
