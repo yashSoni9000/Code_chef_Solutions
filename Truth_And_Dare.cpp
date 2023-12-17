@@ -55,4 +55,4 @@ int main() {
 }
 
 // we store the freq of all the truth and dare than ram can perform and we iterate for shyam's tasks to check if there is any freq tasks that ram can perform
-// if yes we continue and complete the loop else it breaks and print no
+// if yes we continue and complete the loop else it breaks and print no 
