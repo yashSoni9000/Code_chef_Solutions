@@ -16,6 +16,5 @@ int main() {
 	}
 	return 0;
 }
-
 // since the number of notebooks are per 100 pages and we receive 1000 per kg of pulp we divide 1000/100 =10 so we need to 
 // multiply with n kg of pulp to get number of notebook
