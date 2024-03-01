@@ -30,3 +30,39 @@ int main() {
 // 1 2 3 4 5
 // 1 5 3 4 2 // optimized sum =27
 // 1 2 3 5 4 // sum = 25 not optimized
+/*
+#define ll long long
+#define f(end) for (int i = 0; i < end; i++)
+#define e '\n'
+    
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t, n;
+    cin >> t;
+    while (t--)
+    {
+        cin >> n;
+        int temp, sum = 0, first = INT_MAX, second = INT_MAX;
+        f(n) {
+            cin >> temp;
+            if (temp <= first) {
+                second = first;
+                first = temp;
+            }
+            else if (temp < second && temp != first)
+                second = temp;
+            sum += temp;
+        }
+        sum = (2 * sum) - (first + second);
+        cout << sum << e;
+    }
+    return 0;
+}
+
+// this approach does similar thing to previous approach but is more optimised and in terms of sorting and memory
+*/
