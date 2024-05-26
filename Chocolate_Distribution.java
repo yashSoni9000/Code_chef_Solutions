@@ -11,4 +11,4 @@ public static void main(String[] args) throws java.lang.Exception
 }
 
 // given n there can be min number of children by calculatingupper limit of half of given chocolates and
-// n number to get the max number of children
+// n number to get the max number of children 
